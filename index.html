@@ -9,69 +9,89 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="keywords" content="html,css,resume,study,tags">
     <meta name="description" content="Это сайт-резюме разработчика: Штарев Михаил">
+    <link rel="stylesheet" href="index_css.css">
 </head>
 
 <body>
-    <img src="Shtarev.png" alt="Фото" width="250">
-    <h1>Штарев Михаил Евгеньевич</h1>
-    <p><strong>Java web </strong>Разработчик</p>
-    <p><strong>Мои Хобби:</strong></p>
-    <ol>
-        <li>Спорт</li>
-        <li>Походы</li>
-        <li>Фильмы/Сериалы</li>
-        <li>Книги</li>
-    </ol>
-    <p><strong> Список социальных сетей:</strong></p>
-    <p><a href="https://vk.com/mixashtarev" target="_blank">VK</a></p>
-    <p><a href="https://github.com/mikhailshtarev" target="_blank">GitHub</a></p>
-    <p><a href="https://gitlab.com/mikhailshtarev" target="_blank">GitLab</a></p>
+    <section class="photo_link">
+        <img src="Shtarev.png" alt="Фото" width="250">
+        <h1>Штарев Михаил Евгеньевич</h1>
+        <p><strong>Java web </strong>Разработчик</p>
+        <p><strong>+7 999 120-31-64 </strong></p>
+        <p><strong> Список социальных сетей:</strong></p>
+        <p class="ref_class">
+            <a href="https://vk.com/mixashtarev" target="_blank">VK</a>
+            <nobr> | </nobr>
+            <a href="https://github.com/mikhailshtarev" target="_blank">GitHub</a>
+            <nobr> | </nobr>
+            <a href="https://gitlab.com/mikhailshtarev" target="_blank">GitLab</a>
+        </p>
+    </section>
 
-    <h1>Опыт Работы</h1>
-    <table width="600">
-        <thead>
-            <th>Наименование компании</th>
-            <th>Должность</th>
-            <th>Период работы</th>
-            <th>Сайт компании</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>STM Labs</td>
-                <td>Ведущий разработчик</td>
-                <td>июнь 2022 - настоящее время</td>
-                <td> <a href="https://stm-labs.ru/ru/" target="_blank">stm-labs.ru</a></td>
-            </tr>
-            <tr>
-                <td>Nexign</td>
-                <td>Разработчик</td>
-                <td>май 2021 - июнь 2022</td>
-                <td> <a href="https://nexign.com/ru" target="_blank">nexign.com</a></td>
-            </tr>
-            <tr>
-                <td>Bss Software</td>
-                <td>Младший Разработчик</td>
-                <td>декабрь 2020 - май 2021</td>
-                <td> <a href="http://bss-soft.ru/" target="_blank">bss-soft.ru</a></td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <h1>Связаться со мной</h1>
-    <div>
-        <label for="text_id">Ваше Имя:</label>
-        <input type="text" id="text_id" placeholder="Введите Имя">
-    </div>
-    <div>
-        <label for="email_id">Ваш Email:</label>
-        <input type="email" id="email_id" placeholder="Введите email">
-    </div>
-    <div>
-        <label for="message">Ваше Сообщение:</label>
-        <br>
-        <textarea id="message" cols="30" rows="5"></textarea>
-    </div>
-    <button type="submit">Отправить форму</button>
+    <section class="work_experience">
+        <h1>Опыт Работы</h1>
+        <table width="600">
+            <thead>
+                <th>Наименование компании</th>
+                <th>Должность</th>
+                <th>Период работы</th>
+                <th>Сайт компании</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>STM Labs</td>
+                    <td>Ведущий разработчик</td>
+                    <td>июнь 2022 - настоящее время</td>
+                    <td> <a href="https://stm-labs.ru/ru/" target="_blank">stm-labs.ru</a></td>
+                </tr>
+                <tr>
+                    <td>Nexign</td>
+                    <td>Разработчик</td>
+                    <td>май 2021 - июнь 2022</td>
+                    <td> <a href="https://nexign.com/ru" target="_blank">nexign.com</a></td>
+                </tr>
+                <tr>
+                    <td>Bss Software</td>
+                    <td>Младший Разработчик</td>
+                    <td>декабрь 2020 - май 2021</td>
+                    <td> <a href="http://bss-soft.ru/" target="_blank">bss-soft.ru</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="education">
+        <h1>Образование</h1>
+        <table width="600">
+            <thead>
+                <th>Год окончания</th>
+                <th>Наименование учебного заведения</th>
+                <th>Направление</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2019 Labs</td>
+                    <td>ННГАСУ</td>
+                    <td>ИСФ, ТСП</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>ННГАСУ</td>
+                    <td>ИСФ</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="hobby">
+        <p><strong>Мои Хобби:</strong></p>
+        <ol>
+            <li>Спорт</li>
+            <li>Походы</li>
+            <li>Фильмы/Сериалы</li>
+            <li>Книги</li>
+        </ol>
+    </section>
 </body>
 
 </html>

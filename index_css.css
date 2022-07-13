@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Rubik:ital@1&display=swap');
+
+body {
+    font-family: 'Rubik';
+    font-weight: 500;
+    background: #FFFFF0;
+    color:#000080;
+}
+
+.ref_class{
+    font-weight: 800;
+    letter-spacing:2px;
+}
