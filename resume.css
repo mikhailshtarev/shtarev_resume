@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Rubik:ital@1&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+
+}
+
+a {
+    color: #6998AB;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #6998AB;
+    font-size: 1.2rem;
+}
+
+a:visited {
+    color: #6998AB;
+}
+
+.left-sect {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-left: 30px;
+    background-color: #B1D0E0;
+    left: 0;
+}
+
+.right-sect {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #B1D0E0;
+    right: 0;
+}
+ .underheared{
+    margin:0%;
+    color:#1A374D;
+    background-color: #6998AB;
+    font-size: 14px;
+ }
+
+ .underheared h3{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+ }
+.contact {
+    margin-top: 10px;
+    width: 250px;
+    max-width: 250px;
+    height: 30%;
+    background-color: #1A374D;
+}
+
+.email {
+    margin-left: 0px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 13px;
+    margin-bottom: 5px;
+}
+
+.email_icon {
+    float: left;
+    color: #B1D0E0;
+    vertical-align: middle;
+}
+
+.email_str {
+    padding-left: 1.9em;
+    color: #B1D0E0;
+    vertical-align: middle;
+}
+
+.telephone_number_block {
+    margin-bottom: 3px;
+    padding-left: 13px;
+}
+
+.telephone_icon {
+    float: left;
+    padding-right: 8px;
+    color: #B1D0E0;
+    vertical-align: middle
+}
+
+.telephone_number {
+    color: #B1D0E0;
+    vertical-align: middle
+}
+
+
+.telegram {
+    position: absolute;
+    padding-left: 10px;
+}
+
+.telegram_icon {
+    vertical-align: middle;
+}
